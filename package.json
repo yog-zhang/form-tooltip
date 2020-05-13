@@ -1,0 +1,14 @@
+{
+  "name": "form-tooltip",
+  "version": "1.0.1",
+  "description": "表单元素（input、textarea）悬浮提示框",
+  "main": "form-tooltip.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tooltip;"
+  ],
+  "author": "yog-zhang",
+  "license": "ISC"
+}

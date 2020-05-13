@@ -1,5 +1,5 @@
 {
-  "name": "form-tooltip",
+  "name": "form-tooltip_demo",
   "version": "1.0.0",
   "description": "表单元素（input、textarea）提示框",
   "main": "index.js",
@@ -10,11 +10,15 @@
   "keywords": [
     "tooltip;"
   ],
-  "author": "zhangy",
+  "author": "yog-zhang",
+  "repository": "https://github.com/yog-zhang/form-tooltip.git",
   "license": "ISC",
   "devDependencies": {
     "html-webpack-plugin": "^4.2.1",
     "webpack": "^4.43.0",
     "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "form-tooltip": "^1.0.1"
   }
 }

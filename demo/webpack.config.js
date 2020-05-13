@@ -3,7 +3,7 @@ let HtmlWebpackPlugin = require('html-webpack-plugin')
 let path = require('path')
 module.exports = {
     entry: {
-        app: './form-tooltip.js'
+        app: './index.js'
     },
     output: {
         filename: '[name].js',

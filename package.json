@@ -10,5 +10,6 @@
     "tooltip;"
   ],
   "author": "yog-zhang",
+  "repository": "https://github.com/yog-zhang/form-tooltip.git",
   "license": "ISC"
 }

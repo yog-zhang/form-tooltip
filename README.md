@@ -69,13 +69,11 @@ let formTooltip = new FormTooltip('input',
 渲染如下：
 
 ```
-    <div class="formPanel">
-        <input type="text" id="input">
-        <div class="form-tooltip-common form-tooltip-0">
-            <span class="form-tooltip-text">输入文本无效！</span>
-            <div class="form-tooltip-triangle-0">
-                ::before
-            </div>
+    <input type="text" id="input"> //表单元素要自己写，不是提示框组件渲染出来的
+    <div class="form-tooltip-common form-tooltip-0">
+        <span class="form-tooltip-text">输入文本无效！</span>
+        <div class="form-tooltip-triangle-0">
+            ::before
         </div>
     </div>
 ```
@@ -110,11 +108,11 @@ showFlag: Boolean类型的值，为true表示显示提示框，为false表示隐
 返回值是一个对象，如下：<br>
 ```
     {
-        id: this.id,                                   // 绑定的form表单id选择器
-        options: this.options,                         // 创建提示框对象时，传入的options参数，即构造函数的第二个参数
-        cssTextObj: this.cssTextObj,                   // 创建提示框对象时，传入的cssTextObj参数，即构造函数的第三个参数
-        showFlag: this.showFlag,                       // 提示框的显示隐藏状态标志
-        formNode: document.querySelector('#' + this.id),   // 绑定的表单元素节点
-        tooltipNode: document.querySelector('.form-tooltip-' + this.instanceSeq)  //实例化的提示框元素节点
+        id: 绑定的form表单id选择器
+        options: 创建提示框对象时，传入的options参数，即构造函数的第二个参数
+        cssTextObj: 创建提示框对象时，传入的cssTextObj参数，即构造函数的第三个参数
+        showFlag: 提示框的显示隐藏状态标志
+        formNode: 绑定的表单元素节点
+        tooltipNode: 实例化的提示框元素节点
     }
 ```
